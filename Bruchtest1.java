@@ -7,8 +7,7 @@ public static void main(String[] args) {
     b.nenner = 12;
     b.ausgeben();
     System.out.print("\n Und nach dem Kürzen: ");
-    b.kuerzen();
-    b.ausgeben();
-
+    b.gekuerztausgeben();
+    
 }    
 }

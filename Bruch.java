@@ -20,5 +20,9 @@ void kuerzen() {
     zaehler /= n; //in n steht jetzt der ggT
     nenner /= n;
 }
+void gekuerztausgeben() {
+    kuerzen();
+    ausgeben();
+}
     
 }
